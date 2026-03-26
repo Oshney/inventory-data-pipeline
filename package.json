@@ -1,0 +1,7 @@
+{
+  "name": "inventory-api",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4"
+  }
+}
