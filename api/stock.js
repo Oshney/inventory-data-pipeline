@@ -4,7 +4,14 @@ export default async function handler(req, res) {
 
   const supabase = createClient(
     process.env.URL,
-    process.env.KEY
+    process.env.KEY,
+    {
+      global: {
+        headers: {
+          Authorization: `Bearer ${process.env.KEY}`
+        }
+      }
+    }
   );
 
   const { data, error } = await supabase
@@ -12,8 +19,8 @@ export default async function handler(req, res) {
     .select("*");
 
   if (error) {
-    return res.status(500).json({ error });
+    return res.status(500).json(error);
   }
 
-  return res.status(200).json(data);
+  res.status(200).json(data);
 }
