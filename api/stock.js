@@ -6,8 +6,12 @@ export default async function handler(req, res) {
     process.env.URL,
     process.env.KEY,
     {
+      auth: {
+        persistSession: false
+      },
       global: {
         headers: {
+          apikey: process.env.KEY,
           Authorization: `Bearer ${process.env.KEY}`
         }
       }
