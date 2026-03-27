@@ -1,75 +1,22 @@
-Supabase
-Oshney's Org
-Free
+export default async function handler(req, res) {
+  try {
+    const response = await fetch(
+      "https://locrzxuubbbiwtoefyht.supabase.co/rest/v1/stock?select=*",
+      {
+        method: "GET",
+        headers: {
+          apikey: process.env.KEY,
+          Authorization: `Bearer ${process.env.KEY}`,
+          "Content-Type": "application/json"
+        }
+      }
+    );
 
-inventory-project
+    const data = await response.json();
 
-main
-Production
+    res.status(200).json(data);
 
-
-Connect
-Feedback
-
-Search...
-
-K
-
-
-
-
-
-Oshney
-
-Table Editor
-
-schema
-
-public
-
-
-New table
-Search tables
-Search tables...
-
-
-
-
-public.
-stock
-
-Filter by id, item, qty... or ask AI
-
-Sort
-1
-RLS policy
-
-Index Advisor
-
-Enable Realtime
-
-Role
-postgres
-
-
-
-Insert
-id
-item
-qty
-type
-date
-
-Page
-
-1
-of 1
-
-
-
-100 rows
-3 records
-
-definition
-data
-stock | Table Editor | inventory-project | Oshney's Org | Supabase
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+}
