@@ -7,7 +7,6 @@ export default async function handler(req, res) {
         headers: {
           apikey: process.env.KEY,
           Authorization: `Bearer ${process.env.KEY}`,
-          "Content-Type": "application/json",
         },
       }
     );
@@ -16,8 +15,6 @@ export default async function handler(req, res) {
 
     res.status(200).json(data);
   } catch (err) {
-    res.status(500).json({
-      error: err.message,
-    });
+    res.status(500).json({ error: err.message });
   }
 }
