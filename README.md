@@ -7,6 +7,7 @@
 ![Automation](https://img.shields.io/badge/Automation-Google%20Apps%20Script-4285F4?style=flat-square)
 ![Alerts](https://img.shields.io/badge/Alerts-Telegram%20Bot-26A5E4?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Production%20Running-success?style=flat-square)
+![Email](https://img.shields.io/badge/Email-Gmail-red?style=flat-square&logo=gmail)
 
 ---
 
@@ -257,13 +258,13 @@ inventory-data-pipeline/
 ## 👤 Author
 
 **Oshney Singh Thakur**
-Store Incharge & Aspiring Data Analyst — DPS School, Indore
+Aspiring Data Analyst
 
 - 📁 [GitHub](https://github.com/Oshney/inventory-data-pipeline)
-- 💼 [LinkedIn](https://linkedin.com/in/your-linkedin-here) ← *apna link daalo*
+- 💼 [www.linkedin.com/in/oshney-singh-thakur-ba06b51b3)
 - 🌐 [Live API](https://inventory-api-indol.vercel.app/api/stock)
 
-> *"Built this in 6 months of self-learning — proof that learning by building beats learning by watching."*
+> *"Built this in 4 days of self-learning — proof that learning by building beats learning by watching."*
 
 ---
 
