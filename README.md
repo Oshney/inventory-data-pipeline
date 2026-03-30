@@ -68,15 +68,22 @@ An end-to-end automated inventory pipeline where:
                                                   │  outwards table │
                                                   └────────┬────────┘
                                                            │
-                              ┌────────────────────────────┤
-                              │                            │
-                              ▼                            ▼
-                     ┌────────────────┐         ┌──────────────────┐
-                     │ Stock Sheet    │         │  Telegram Bot    │
-                     │ 🟢 Green >20  │         │  @Oshney_        │
-                     │ 🟡 Yellow >10 │         │  inventory_bot   │
-                     │ 🔴 Red <10    │         │  Low stock alert │
-                     └────────────────┘         └──────────────────┘
+                    ┌───────────────────────────────────┤
+                    │                                   │
+                    ▼                                   ▼
+           ┌────────────────┐              ┌────────────────────────┐
+           │ Stock Sheet    │              │   Low Stock Alerts     │
+           │ 🟢 Green >20  │              │                        │
+           │ 🟡 Yellow >10 │              │  ┌──────────────────┐  │
+           │ 🔴 Red <10    │              │  │  Telegram Bot    │  │
+           └────────────────┘              │  │  @Oshney_        │  │
+                                           │  │  inventory_bot   │  │
+                                           │  └──────────────────┘  │
+                                           │  ┌──────────────────┐  │
+                                           │  │   Gmail Alert    │  │
+                                           │  │  (configurable)  │  │
+                                           │  └──────────────────┘  │
+                                           └────────────────────────┘
 ```
 
 ---
@@ -89,7 +96,7 @@ An end-to-end automated inventory pipeline where:
 4. Vercel saves data to **Supabase PostgreSQL** (`inwards` and `outwards` tables)
 5. **Stock is calculated** per item: `total_in - total_out = current_stock`
 6. **Color coding applied** in STOCK sheet — Green / Yellow / Red
-7. If any item drops below 10 units → **Telegram alert fires instantly**
+7. If any item drops below 10 units → **Telegram alert fires instantly + Gmail alert sent**
 8. Item auto-added to **REORDER sheet** for procurement tracking
 
 ---
@@ -253,7 +260,7 @@ inventory-data-pipeline/
 Store Incharge & Aspiring Data Analyst — DPS School, Indore
 
 - 📁 [GitHub](https://github.com/Oshney/inventory-data-pipeline)
-- 💼 [www.linkedin.com/in/oshney-singh-thakur-ba06b51b3) 
+- 💼 [LinkedIn](https://linkedin.com/in/your-linkedin-here) ← *apna link daalo*
 - 🌐 [Live API](https://inventory-api-indol.vercel.app/api/stock)
 
 > *"Built this in 6 months of self-learning — proof that learning by building beats learning by watching."*
