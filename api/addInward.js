@@ -1,15 +1,18 @@
 export default async function handler(req, res) {
   try {
-    if (req.method !== "POST") {
-      return res.status(405).json({ error: "Only POST allowed" });
-    }
+    if (req.method !== "POST") return res.status(405).json({ error: "Only POST allowed" });
 
     const body = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
-    const { sno, shop_name, name, item, qty, order_date, note } = body;
+    const {
+      sno, grn_no, po_no, bill_no, bill_date,
+      supplier_name, supplier_mobile, shop_name,
+      category, hsn_code, item_name, brand, unit,
+      qty, rate, amount, gst_percent, gst_amount, total_amount,
+      payment_mode, payment_status, warehouse,
+      batch_no, expiry_date, received_by, verified_by, note
+    } = body;
 
-    if (!item || !qty) {
-      return res.status(400).json({ error: "Missing fields", received: body });
-    }
+    if (!item_name || !qty) return res.status(400).json({ error: "Missing fields" });
 
     const response = await fetch(
       "https://locrzxuubbbiwtoefyht.supabase.co/rest/v1/inwards",
@@ -21,15 +24,20 @@ export default async function handler(req, res) {
           "Content-Type": "application/json",
           Prefer: "return=representation"
         },
-        body: JSON.stringify([{ sno, shop_name, name, item, qty, order_date, note }])
+        body: JSON.stringify([{
+          sno, grn_no, po_no, bill_no, bill_date,
+          supplier_name, supplier_mobile, shop_name,
+          category, hsn_code, item_name, brand, unit,
+          qty, rate, amount, gst_percent, gst_amount, total_amount,
+          payment_mode, payment_status, warehouse,
+          batch_no, expiry_date, received_by, verified_by, note
+        }])
       }
     );
 
-    const text = await response.text();
-    console.log("SUPABASE RESPONSE:", text);
-    return res.status(200).json({ ok: true, text });
-
+    const data = await response.json();
+    res.status(200).json({ message: "Inward added", data });
   } catch (err) {
-    return res.status(500).json({ error: err.message });
+    res.status(500).json({ error: err.message });
   }
 }
