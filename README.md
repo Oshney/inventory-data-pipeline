@@ -113,7 +113,7 @@ An end-to-end automated inventory pipeline where:
 
 
 ### INWARDS Sheet — Stock Entry from Supplier
-screenshots/INWARDS.jpg
+![Inwards](https://raw.githubusercontent.com/oshotech/inventory-system/main/screenshots/inwards.jpg)
 
 ### OUTWARDS Sheet — Sales Entry to Customer
 ![Outwards](./screenshots/outwards.jpg)
