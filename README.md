@@ -113,7 +113,7 @@ An end-to-end automated inventory pipeline where:
 
 
 ### INWARDS Sheet — Stock Entry from Supplier
-![Inwards](./screenshots/inwards.jpg)
+screenshots/INWARDS.jpg
 
 ### OUTWARDS Sheet — Sales Entry to Customer
 ![Outwards](./screenshots/outwards.jpg)
