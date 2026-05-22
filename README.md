@@ -125,7 +125,7 @@ An end-to-end automated inventory pipeline where:
 ![Dashboard](./screenshots/dashboard.jpg)
 
 ### Supabase Database — PostgreSQL Tables
-![Supabase](./screenshots/supabase_database_structure.jpg)
+screenshots/SUPABASE DATABASE STRUCTURE.jpg
 
 ### Apps Script — Execution Log
 ![Apps Script](./screenshots/app_script_working.jpg)
