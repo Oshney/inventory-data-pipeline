@@ -116,7 +116,7 @@ An end-to-end automated inventory pipeline where:
 ![INWARDS](https://raw.githubusercontent.com/Oshney/inventory-data-pipeline/b6e4fc78ba09337702303ce877c8911f014cca2b/screenshots/INWARDS.jpg)
 
 ### OUTWARDS Sheet — Sales Entry to Customer
-![Outwards](./screenshots/outwards.jpg)
+![OUTWARDS](./screenshots/outwards.jpg)
 
 ### STOCK Sheet — Real-time Color Coded Stock
 ![Stock](./screenshots/total_stock.jpg)
