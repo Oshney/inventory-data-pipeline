@@ -115,14 +115,15 @@ An end-to-end automated inventory pipeline where:
 ### INWARDS Sheet — Stock Entry from Supplier
 
 ![INWARDS](screenshots/inwards.jpg)
+
 ### OUTWARDS Sheet — Sales Entry to Customer
-![OUTWARDS](./screenshots/outwards.jpg)
+![OUTWARDS](screenshots/outwards.jpg)
 
 ### STOCK Sheet — Real-time Color Coded Stock
-![Stock](./screenshots/total_stock.jpg)
+![Stock](screenshots/total%20stock.jpg)
 
 ### DASHBOARD
-![Dashboard](./screenshots/dashboard.jpg)
+![Dashboard](screenshots/dashboard.jpg)
 
 ### Supabase Database — PostgreSQL Tables
 screenshots/SUPABASE DATABASE STRUCTURE.jpg
