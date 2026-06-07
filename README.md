@@ -114,8 +114,7 @@ An end-to-end automated inventory pipeline where:
 
 ### INWARDS Sheet — Stock Entry from Supplier
 
-![INWARDS](https://raw.githubusercontent.com/Oshney/inventory-data-pipeline/main/screenshots/INWARDS.jpg)
-
+![INWARDS](screenshots/inwards.jpg)
 ### OUTWARDS Sheet — Sales Entry to Customer
 ![OUTWARDS](./screenshots/outwards.jpg)
 
