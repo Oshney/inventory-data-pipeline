@@ -120,7 +120,7 @@ An end-to-end automated inventory pipeline where:
 ![OUTWARDS](screenshots/outwards.jpg)
 
 ### STOCK Sheet — Real-time Color Coded Stock
-![Stock](screenshots/total%20stock.jpg)
+![Stock](screenshots/total stock.jpg)
 
 ### DASHBOARD
 ![Dashboard](screenshots/dashboard.jpg)
