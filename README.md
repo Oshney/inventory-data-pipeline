@@ -109,35 +109,29 @@ An end-to-end automated inventory pipeline where:
 
 ---
 
-## 📸 Screenshots
-
-### Inwards Sheet
-![Inwards](./screenshots/inwards.jpg)
-
 ### Outwards Sheet
 ![Outwards](./screenshots/outwards.jpg)
 
 ### Stock Sheet
-![Stock](./screenshots/total_stock.jpg)
+![Stock](./screenshots/total stock.jpg)
 
 ### Dashboard
 ![Dashboard](./screenshots/dashboard.jpg)
 
 ### Supabase Database
-![Supabase](./screenshots/supabase_database_structure.jpg)
+![Supabase](./screenshots/SUPABASE DATABASE STRUCTURE.jpg)
 
 ### Apps Script Execution
 ![Apps Script](./screenshots/app_script_working.jpg)
 
 ### Vercel Deployment
-![Vercel](./screenshots/vercel_deployment.jpg)
+![Vercel](./screenshots/VERCEL DEPLOYMENT.jpg)
 
 ### Telegram Alert
-![Telegram](./screenshots/telegram_bot_alert.jpg)
+![Telegram](./screenshots/BOT ALERT LOW STOCK TELEGRAM.jpg)
 
 ### Gmail Alert
-![Gmail](./screenshots/gmail_alert_system.jpg)
-
+![Gmail](./screenshots/GMAIL ALERT SYSTEM LOW STOCK.jpg)
 ## 🌐 Live API Endpoints
 
 Base URL: `https://inventory-api-indol.vercel.app`
