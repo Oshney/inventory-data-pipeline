@@ -112,34 +112,17 @@ An end-to-end automated inventory pipeline where:
 ## 📸 Screenshots
 
 
-### INWARDS Sheet — Stock Entry from Supplier
+![Apps Script](./screenshots/APP SCRIPT WORKING SCREENSHORT.jpg)
 
-![INWARDS](screenshots/inwards.jpg)
+![Telegram](./screenshots/BOT ALERT LOW STOCK TELEGRAM.jpg)
 
-### OUTWARDS Sheet — Sales Entry to Customer
-![OUTWARDS](screenshots/outwards.jpg)
+![Gmail](./screenshots/GMAIL ALERT SYSTEM LOW STOCK.jpg)
 
-### STOCK Sheet — Real-time Color Coded Stock
-![Stock](screenshots/total stock.jpg)
+![Supabase](./screenshots/SUPABASE DATABASE STRUCTURE.jpg)
 
-### DASHBOARD
-![Dashboard](screenshots/dashboard.jpg)
+![Vercel](./screenshots/VERCEL DEPLOYMENT.jpg)
 
-### Supabase Database — PostgreSQL Tables
-screenshots/SUPABASE DATABASE STRUCTURE.jpg
-
-### Apps Script — Execution Log
-![Apps Script](./screenshots/app_script_working.jpg)
-
-### Vercel — Live Deployment
-![Vercel](./screenshots/vercel_deployment.jpg)
-
-### Telegram Bot — Low Stock Alert
-![Telegram](./screenshots/telegram_bot_alert.jpg)
-
-### Gmail — Low Stock Alert
-![Gmail](./screenshots/gmail_alert_system.jpg)
----
+![Stock](./screenshots/total stock.jpg)
 
 ## 🌐 Live API Endpoints
 
