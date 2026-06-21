@@ -111,7 +111,7 @@ An end-to-end automated inventory pipeline where:
 
 ### Inwards Sheet
 
-<img src="./screenshots/inwards.jpg" width="900">
+<img src="https://raw.githubusercontent.com/Oshney/inventory-data-pipeline/main/screenshots/inwards.jpg" width="900">
 
 ### Outwards Sheet
 
