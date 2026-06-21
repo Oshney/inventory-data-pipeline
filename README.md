@@ -125,13 +125,13 @@ An end-to-end automated inventory pipeline where:
 ![Apps Script](./screenshots/app_script_working.jpg)
 
 ### Vercel Deployment
-![Vercel](./screenshots/VERCEL DEPLOYMENT.jpg)
+![Vercel](./screenshots/vercel_deployment.jpg)
 
 ### Telegram Alert
-![Telegram](./screenshots/BOT ALERT LOW STOCK TELEGRAM.jpg)
-
+![Telegram](./screenshots/telegram_bot_alert.jpg)
 ### Gmail Alert
-![Gmail](./screenshots/GMAIL ALERT SYSTEM LOW STOCK.jpg)
+![Gmail](./screenshots/gmail_alert_system.jpg)
+
 ## 🌐 Live API Endpoints
 
 Base URL: `https://inventory-api-indol.vercel.app`
