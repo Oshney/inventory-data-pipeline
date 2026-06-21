@@ -110,32 +110,40 @@ An end-to-end automated inventory pipeline where:
 ## 📸 Screenshots
 
 ### Inwards Sheet
-![Inwards](./screenshots/inwards.jpg)
+
+<img src="./screenshots/inwards.jpg" width="900">
 
 ### Outwards Sheet
-![Outwards](./screenshots/outwards.jpg)
+
+<img src="./screenshots/outwards.jpg" width="900">
 
 ### Stock Sheet
-![Stock](./screenshots/total_stock.jpg)
+
+<img src="./screenshots/total_stock.jpg" width="900">
 
 ### Dashboard
-![Dashboard](./screenshots/dashboard.jpg)
+
+<img src="./screenshots/dashboard.jpg" width="900">
 
 ### Supabase Database
-![Supabase](./screenshots/supabase_database_structure.jpg)
+
+<img src="./screenshots/supabase_database_structure.jpg" width="900">
 
 ### Apps Script Execution
-![Apps Script](./screenshots/app_script_working.jpg)
+
+<img src="./screenshots/app_script_working.jpg" width="900">
 
 ### Vercel Deployment
-![Vercel](./screenshots/vercel_deployment.jpg)
+
+<img src="./screenshots/vercel_deployment.jpg" width="900">
 
 ### Telegram Alert
-![Telegram](./screenshots/telegram_bot_alert.jpg)
+
+<img src="./screenshots/telegram_bot_alert.jpg" width="900">
 
 ### Gmail Alert
-![Gmail](./screenshots/gmail_alert_system.jpg)
 
+<img src="./screenshots/gmail_alert_system.jpg" width="900">
 ## 🌐 Live API Endpoints
 
 Base URL: `https://inventory-api-indol.vercel.app`
