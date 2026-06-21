@@ -107,19 +107,22 @@ An end-to-end automated inventory pipeline where:
 7. If any item drops below 10 units → **Telegram alert fires instantly + Gmail alert sent**
 8. Item auto-added to **REORDER sheet** for procurement tracking
 
----
+## 📸 Screenshots
+
+### Inwards Sheet
+![Inwards](./screenshots/inwards.jpg)
 
 ### Outwards Sheet
 ![Outwards](./screenshots/outwards.jpg)
 
 ### Stock Sheet
-![Stock](./screenshots/total stock.jpg)
+![Stock](./screenshots/total_stock.jpg)
 
 ### Dashboard
 ![Dashboard](./screenshots/dashboard.jpg)
 
 ### Supabase Database
-![Supabase](./screenshots/SUPABASE DATABASE STRUCTURE.jpg)
+![Supabase](./screenshots/supabase_database_structure.jpg)
 
 ### Apps Script Execution
 ![Apps Script](./screenshots/app_script_working.jpg)
@@ -129,6 +132,7 @@ An end-to-end automated inventory pipeline where:
 
 ### Telegram Alert
 ![Telegram](./screenshots/telegram_bot_alert.jpg)
+
 ### Gmail Alert
 ![Gmail](./screenshots/gmail_alert_system.jpg)
 
