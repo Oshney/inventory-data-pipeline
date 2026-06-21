@@ -111,18 +111,32 @@ An end-to-end automated inventory pipeline where:
 
 ## 📸 Screenshots
 
+### Inwards Sheet
+![Inwards](./screenshots/inwards.jpg)
 
-![Apps Script](./screenshots/APP SCRIPT WORKING SCREENSHORT.jpg)
+### Outwards Sheet
+![Outwards](./screenshots/outwards.jpg)
 
-![Telegram](./screenshots/BOT ALERT LOW STOCK TELEGRAM.jpg)
+### Stock Sheet
+![Stock](./screenshots/total_stock.jpg)
 
-![Gmail](./screenshots/GMAIL ALERT SYSTEM LOW STOCK.jpg)
+### Dashboard
+![Dashboard](./screenshots/dashboard.jpg)
 
-![Supabase](./screenshots/SUPABASE DATABASE STRUCTURE.jpg)
+### Supabase Database
+![Supabase](./screenshots/supabase_database_structure.jpg)
 
-![Vercel](./screenshots/VERCEL DEPLOYMENT.jpg)
+### Apps Script Execution
+![Apps Script](./screenshots/app_script_working.jpg)
 
-![Stock](./screenshots/total stock.jpg)
+### Vercel Deployment
+![Vercel](./screenshots/vercel_deployment.jpg)
+
+### Telegram Alert
+![Telegram](./screenshots/telegram_bot_alert.jpg)
+
+### Gmail Alert
+![Gmail](./screenshots/gmail_alert_system.jpg)
 
 ## 🌐 Live API Endpoints
 
